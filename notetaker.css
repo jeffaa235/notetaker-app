@@ -1,0 +1,35 @@
+
+    body, html {
+	  margin: 0;
+      height: 100%;
+    }
+	.full-screen {
+		height: 100%;
+		max-height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.main-text > textarea{
+		height: 100%;
+		overflow-y: auto;
+	}
+	
+	.link-danger-active {
+		background-color: red;
+		color: white;
+	}
+	
+	.app-section {
+		border: 0px solid black;
+	}
+	
+	.top-div, .bottom-div {
+      height: auto; /* Each occupies 10% of the height */
+      background-color: lightblue;
+    }
+
+    .middle-div {
+      height: 80%; /* Occupies 80% of the height */
+      background-color: lightcoral;
+    }
